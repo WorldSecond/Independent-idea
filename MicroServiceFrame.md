@@ -451,7 +451,7 @@ export const eventBus = {
 
 ---
 
-## 15. 你可能还没考虑到的问题与风险
+## 15. 可能还没考虑到的问题与风险
 
 - 依赖冲突与升级地狱
   - 同页多版本 React/Vue/Angular 的体积与内存成本大；建议共享白名单+严格版本策略。
@@ -478,7 +478,7 @@ export const eventBus = {
 
 ---
 
-## 16. 建设路线图（建议）
+## 16. 建设路线图
 
 - Phase 0：PoC
   - 核心契约、ESM Loader、Vue3 与 React18 适配器、Shadow DOM 隔离、简单路由委派、事件总线。
@@ -508,7 +508,7 @@ export const eventBus = {
 
 ---
 
-## 18. 下一步可以落地的最小任务清单（1-2 周）
+## 18. 下一步可以落地的最小任务清单
 
 - 定义并发布 v0 契约（本文 3.1/3.3）。
 - 实现 ESM Loader 与 Registry（支持本地覆盖）。
